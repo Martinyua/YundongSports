@@ -1,0 +1,55 @@
+.searchBar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.raceList {
+    padding-top: 80px;
+
+    .eventWrap {
+        position: relative;
+        width: 98%;
+        height: 390px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid rgb(245, 245, 245);
+        box-shadow: 0px 0px 8px rgb(232, 232, 232);
+
+        .eventTag {
+            border: 50px solid #e6686e;
+            height: 0;
+            width: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+        }
+        .eventText{
+            position: absolute;
+            top: -38px;
+            left: -58px;
+            width: 100px;
+            color: white;
+            font-size: 24px;
+            transform: rotate(-46deg);
+        }
+        .eventImg {
+            width: 100%;
+            margin: 0 auto;
+            height: 310px;
+        }
+
+        .eventTextWrap {
+            width: 98%;
+            margin: 0 auto;
+            margin-top: 10px;
+            font-size: 28px;
+            color: rgb(104, 104, 104);
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

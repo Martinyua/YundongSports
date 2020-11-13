@@ -1,0 +1,30 @@
+.index {
+  flex-direction: column;
+  width: 100%;
+}
+.radio_style{
+  font-size: 26px;
+  text-align: justify;
+  margin: 10px 30px;
+}
+.page-section{
+  font-size: 26px;
+  text-align: justify;
+  margin: 10px 30px;
+}
+.region{
+  font-size: 26px;
+  text-align: left!important;
+  margin: 10px 30px;  
+  view{
+    text-align: left!important;
+    font-size: 26px;
+  }
+}
+.picker{
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+  border: 1px solid #999999;
+  color: #999999;
+}

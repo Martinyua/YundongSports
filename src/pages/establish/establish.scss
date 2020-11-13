@@ -1,0 +1,105 @@
+.establish {
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+}
+
+.establishTitle {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    color: #333333;
+}
+
+.establishAvatar {
+    width: 100%;
+    position: relative;
+    padding: 50px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+.establishAvatarView {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 12px #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.establishAvatarView image {
+    width: 100%;
+    height: 100%;
+}
+
+.Upload {
+    width: 244px;
+    height: 48px;
+    color: #0cadfb;
+    border: 1px solid #0cadfb;
+    margin: 0 auto;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 48px;
+    padding: 0 5px;
+}
+
+.SignUp {
+    width: 100%;
+}
+
+.SignUp .active {
+    color: #0cadfb;
+}
+
+.fill {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fill .Asterisk {
+    margin-right: 9px;
+}
+
+.fill .fillTitle {
+    font-size: 25px;
+    color: #838383;
+}
+
+.fillTop {
+    padding-bottom: 10px;
+}
+
+.fillName input {
+    width: 100%;
+    line-height: 70px;
+    padding-left: 9px;
+    box-sizing: border-box;
+    height: 70px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 28px;
+}
+
+
+.intro {
+    width: 100%;
+    padding-left: 9px;
+    box-sizing: border-box;
+    height: 98px;
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    font-size: 28px;
+}
+.participate {
+    width: 100%;
+    color: #fff;
+    height: 92px;
+    font-size: 34px;
+    background: #0cadfb;
+    border-radius: 12px;
+    margin-top: 60px;
+}

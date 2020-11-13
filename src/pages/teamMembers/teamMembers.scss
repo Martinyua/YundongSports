@@ -1,0 +1,71 @@
+.members{
+    .teamHead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        .teamLogo{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .teamName{
+            font-weight: bolder;
+            font-size: 30px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .teamLeader{
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        .leaderName{
+            font-size: 25px;
+            color: #838383;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    
+        
+            height: calc(100vh - 300rpx);
+            overflow-y: scroll;
+            width: 100%;
+            .teamContent{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+            .memberBox{
+                display: inline-block;
+                display: flex;
+                flex-direction: column;
+                width: 25vw;
+                height: 100px;
+                .memberImg{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                }
+                .memberName{
+                    font-size: 25px;
+                    color: #838383;
+                    text-align: center;
+                    width: 100%;
+                    overflow: hidden;
+                    height: 30px;
+                    line-height: 30px;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+    
+}

@@ -1,0 +1,87 @@
+
+.launch_detail {
+  font-size: 25px;
+  width: 95%;
+  height: 150rpx;
+  margin: 5rpx 20rpx 25rpx 20rpx;
+  background: rgb(228, 220, 220);
+  border-radius: 5px;
+  .launch_detail_text {
+    height: 100rpx;
+    color: red;
+    text-align: left;
+    padding-top: 10rpx;
+
+    .launch_detail_text_text {
+      margin-right: 10rpx;
+    }
+  }
+
+  .launch_detail_nav {
+    float: right;
+    color: rgb(143, 140, 140);
+    margin-right: 50px;
+  }
+}
+
+.create_launch {
+  width: 100%;
+  margin: 25rpx 10rpx 25rpx 0rpx;
+  font-size: 40rpx;
+  text-align: center;
+  border-radius: 10px;
+  .cl{
+    height: 40px;
+    margin: 20px 10px;
+    display: flex;
+  }
+  .create_launch_button {
+    //font-size: 32px;
+    background: rgb(187, 43, 43);
+    // height: 80rpx;
+    // border-radius: 10px;
+    // width: 80%;
+    // margin: 0px 20px;
+    color: #ffffff;
+    height: 80rpx;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto; 
+    line-height: 80rpx;
+    font-size: 40rpx;
+  }
+
+  .teamlist_image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 15rpx;
+  }
+
+  .teamlist_text {
+    display: inline-block;
+    text-align: left;
+    font-size: 32rpx;
+    color: #222222;
+    width: 540rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 40px;
+  }
+
+  .create_launch_Text {
+
+    //text-align: center;
+    background: rgb(179, 176, 176);
+    height: 80rpx;
+    border-radius: 10px;
+    width: 95%;
+    margin: 0 auto;
+    line-height: 80rpx;
+    text{
+      font-size: 40rpx;
+    }
+  }
+}

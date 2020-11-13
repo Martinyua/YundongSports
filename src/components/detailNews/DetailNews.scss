@@ -1,0 +1,15 @@
+.detaiNews{
+    text-align: left;
+    padding-top:20rpx;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    font-size: 28rpx;
+    height: 88rpx;
+    border-bottom: 1px solid #e6e6e6; 
+    .detaiNews_info{
+        color: #635d5d;
+        :nth-child(1){
+            color: black
+        }
+    }
+}

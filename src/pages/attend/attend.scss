@@ -1,0 +1,97 @@
+@import "~taro-ui/dist/style/components/modal.scss";
+.attendTop{
+    width: 94%;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    .attendTopImg{
+        border-radius: 5px;
+        width: 100%;
+        margin: 0 auto;
+        height: 310px;
+    }
+}
+.attendMiddle{
+    padding-bottom: 200px;
+    .attendView{
+        display: flex;
+        width: 94%;
+        margin: 0 auto;
+        color: rgb(122, 122, 122);
+        font-size: 26px;
+        line-height: 80px;
+        border-bottom: 1px solid rgb(209, 209, 209);
+        .attendFont{
+            overflow: scroll;
+            white-space: nowrap;
+            color: black;
+            width: 70%;
+            margin-left: 60px;
+        }
+        .attendImg{
+            width: 40px;
+            height: 40px;
+            margin-top: 20px;
+        }
+    }
+    .attendViewPerson{
+        display: flex;
+        width: 94%;
+        margin: 0 auto;
+        color: rgb(122, 122, 122);
+        font-size: 28px;
+        line-height: 90px;
+        border-bottom: 1px solid rgb(209, 209, 209);
+        .attendName{
+            overflow: scroll;
+            white-space: nowrap;
+            width: 150px;
+            margin-left: 40px;
+        }
+        .attendType{
+            margin-left: 90px;
+        }
+        .attendAvatar{
+            margin: 8px 0;
+        }
+    }
+    .attendEnd{
+        color: rgb(187, 187, 187);
+        font-size: 24px;
+        margin-top: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+
+.shareButtonView{
+    position: fixed;
+    background: white;
+    bottom: 0;
+    border-top: 1px solid rgb(209, 209, 209);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    .signUpOver{
+        color:deepskyblue ;
+        line-height: 130px;
+    }
+    .attendButton,.shareButton{
+        width: 40%;
+        height: 80px;
+        border: 1px solid rgb(12,173,251);
+        border-radius: 11px;
+        background: white;
+        color: rgb(12,173,251);
+        font-size: 28px;
+        font-weight: normal;
+        letter-spacing: 5px;
+        margin-top: 30px;
+    }
+    .shareButton{
+        background:rgb(12,173,251);
+        color: white;
+    }
+}

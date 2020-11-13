@@ -1,0 +1,33 @@
+.at_input{
+    border:0!important;
+    padding:0!important;
+    margin: 0!important;
+    .at-input--disabled{
+        opacity: 1!important;
+    }
+    .placeholder{
+        color: black!important;
+    }
+}
+.at_button{
+    background:deepskyblue ;
+    margin: 40rpx 30px!important;
+}
+.code{
+    word-break: break-all;
+}
+.pay{
+    color: deepskyblue ;
+}
+.pay .item-content__info-note{
+    color: deepskyblue ;
+    font-size: 40px;
+}
+
+.at-list__item .item-extra__info{
+
+        // overflow: scroll!important;
+        // text-overflow: clip!important;
+        // overflow-x: auto!important;
+        word-break:break-all
+}

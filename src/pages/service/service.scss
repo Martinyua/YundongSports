@@ -1,0 +1,22 @@
+.serviceView{
+    padding: 120px 60px 60px 60px;
+    View{
+        font-size: 30px;
+        text-align: center;
+        color: #838383;
+    }
+    Button{
+        margin-bottom: 70px;
+        line-height: 92px;
+        color: #0cadfb;
+        border: 2px solid #0cadfb;
+        background: #fff;
+        font-size: 36px;
+    }
+    .operatingHours {
+        color: #0cadfb;
+        font-size: 30px;
+        margin-bottom: 40px;
+        display: block;
+    }
+}

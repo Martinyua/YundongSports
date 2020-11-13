@@ -1,0 +1,81 @@
+page{
+    width: 100%;
+    height: 100%;
+    .orderList{
+        width: 100%;
+        padding: 20px 30px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        .orderBox{
+            width: 100%;
+            padding: 0 30px 20px 30px;
+            box-shadow: 0px 0px 12px #e3e3e3;
+            box-sizing: border-box;
+            .orderTitle{
+                box-sizing: border-box;
+                width: 100%;
+                font-size: 25px;
+                color: #868686;
+                line-height: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #e0e0e0;
+                .orderNum{
+                    width: 50vw;
+                    overflow:hidden; 
+                    text-overflow:ellipsis; 
+                    white-space:nowrap; 
+                                        
+                }
+            }
+            .orderInfo{
+                font-size: 29px;
+                color: #545454;
+                width: 100%;
+                .gameName{
+                    width: 100%;
+                    display: block;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    line-height: 67px;
+                }
+                .gameType{
+                    color: #000000;
+                    font-size: 30px;
+                }
+                .price{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-bottom: 10px;
+                }
+                .btn {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .payNowbtn{
+                        flex: 1;
+                        line-height: 70px;
+                        margin-right: 32px;
+                        border: 2px solid #bb4234;
+                        font-size: 25px;
+                        color: #bb4234;
+                        border-radius: 11px;
+                    }
+                    .cancelbtn{
+                        flex: 1;
+                        line-height: 70px;
+                        border: 2px solid #bb4234;
+                        font-size: 25px;
+                        color: #bb4234;
+                        border-radius: 11px;
+                    }
+        
+                }
+            }
+           
+        }
+       
+    }
+}

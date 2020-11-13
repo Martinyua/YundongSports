@@ -1,0 +1,48 @@
+.personal{
+    .avatar-boder{
+        display:flex;
+        justify-content:center;
+        margin:50px 0 120px 0;
+        overflow: hidden;
+        .avatar{
+            height: 150px; 
+            width: 150px;
+            border-radius: 50%;
+        }
+        .loginBtn{
+            height: 150px; 
+            width: 150px;
+            border-radius: 50%;
+            font-size: 30px;
+            outline:none;
+            border:none;
+            background-color: #e6e6e6;
+        }
+    }
+    
+    .atList{
+        margin: 0 20px;
+
+        .form{
+            background-color: #e6e6e6;
+            margin-bottom: 40px;
+            height: 100px;
+        }
+        .empty{
+            background-color: #e6e6e6;
+            margin-bottom: 40px;
+        }
+        .help{
+            background-color: #e6e6e6;
+            margin-bottom: 5px;
+        }
+        .team{
+            background-color: #e6e6e6;
+            margin-bottom: 40px;
+        }
+        .establish{
+            background-color: #e6e6e6;
+            margin-bottom: 5px;
+        }
+    }
+}

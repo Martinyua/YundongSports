@@ -1,0 +1,40 @@
+
+.teamlists{
+    width: 95%;
+    height: 150rpx;
+    padding: 16rpx 17rpx 23rpx 16rpx;
+    box-sizing: border-box;
+    border: 2rpx solid #e6e6e6;
+    margin: 20px;
+    .teamlists_detail_info{
+        width: 100%;
+        margin-top: 18rpx;
+        font-size: 24.5rpx;
+        margin: 10rpx 30rpx 10rpx 3rpx;
+        margin-bottom: 30rpx;
+        border-radius: 7rpx;
+        line-height: 30rpx;
+        color: #888888;
+    }
+    .team_list_box{
+        height: 40px;
+        display: flex;
+    }
+    .teamlist_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 15rpx;
+    }
+    .teamlist_text{
+        text-align:left;
+        font-size: 32rpx;
+        color: #222222;
+        width: 540rpx;
+        overflow: hidden;
+        white-space: nowrap;
+        line-height: 40px;
+    }
+}
